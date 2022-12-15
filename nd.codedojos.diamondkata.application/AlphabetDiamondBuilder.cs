@@ -1,5 +1,4 @@
-﻿using System.Globalization;
-using System.Text;
+﻿using System.Text;
 
 namespace nd.codedojos.diamondkata.application
 {
@@ -60,7 +59,6 @@ namespace nd.codedojos.diamondkata.application
 
             var diamond = diamondBuilder.ToString();
             return diamond.Remove(diamond.Length - Environment.NewLine.Length);
-
         }
 
         private int GetDiamondLength(char givenAlphabetCharacter)
