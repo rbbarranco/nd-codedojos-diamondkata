@@ -39,7 +39,7 @@ As with the example above, the end lines (index 0 and 4) will always have 1 char
 As with the above, there are 2 test methods written, both getting the test cases from the TestCaseSource. The difference is that the 2nd method only converts the input to a lower case character. 
 
 ##### Character position tests
-Originally I tried to do this test by comparing the actual result to the expected output. But this made the test case source a bit cumbersome and a little hard to maintain and read. So I opted to write the tests by asserting that the expected character is in its correct position in the line.
+Originally I tried to do this test by comparing the actual result to the expected output. But this made the test case source a bit cumbersome and a little hard to maintain and read. So I opted to write the tests by asserting that the expected character is in its correct position(s) in the line.
 Given the same example above, the following were asserted
 * The top and bottom lines (index 0 and 4) will always contain the first character (A) in the middle (position 2).
 * The middle line (index 2) will always contain the given character (C) in the first and last positions of the line.
