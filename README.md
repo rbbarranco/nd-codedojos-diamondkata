@@ -23,11 +23,11 @@ The following unit tests were added
 Given that the diamond's vertical and horizontal length will be the same regardless of the input, tests/test cases were added to make sure that the diamond's structure is correct. 
 Sample input: C
 Expected output:
-    A    __
-  B   B  __
-C       C__
-  B   B  __
-    A    __
+    A    _ _
+  B   B  _ _
+C       C_ _
+  B   B  _ _
+    A    _ _
 The vertical length (5) is asserted as well as the line's length (5).
 
 There are 2 test methods written, both getting the test cases from the TestCaseSource. The difference is that the 2nd method only converts the input to a lower case character. 
