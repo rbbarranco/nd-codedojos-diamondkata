@@ -10,10 +10,10 @@ This is an implementation of https://github.com/davidwhitney/CodeDojos/tree/mast
   * Once all lines are built, they are joined together and returned to the console app to be displayed.
 
 ### Unit testing
-* nUnit and TDD was used
 * TestCaseSource was used to hold the different test case scenarios for valid inputs and other properties that will aid the unit test (Contains only upper cased input)
+* The combination of the below test cases/scenarios should ensure that the structure and the characters in the diamond will be correct.
 
-The following unit tests were added
+The following unit tests were added:
 * Invalid scenarios - invalid input
 * Diamond length tests
 * Character count tests
