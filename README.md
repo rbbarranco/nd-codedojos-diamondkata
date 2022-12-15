@@ -24,12 +24,11 @@ Given that the diamond's vertical and horizontal length will be the same regardl
 Sample input: C <br />
 Expected output: <br />
 
-
-  A   
- B B 
-C   C
- B B 
-  A
+        A
+       B B
+      C   C
+       B B
+        A
   
     
 The vertical length (5) is asserted as well as the line's length (5).
