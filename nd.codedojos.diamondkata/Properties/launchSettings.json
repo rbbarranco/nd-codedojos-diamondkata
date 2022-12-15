@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "nd.codedojos.diamondkata": {
+      "commandName": "Project",
+      "commandLineArgs": "Z"
+    }
+  }
+}
