@@ -23,6 +23,7 @@ The following unit tests were added
 Given that the diamond's vertical and horizontal length will be the same regardless of the input, tests/test cases were added to make sure that the diamond's structure is correct. 
 Sample input: C
 Expected output:
+>
     A    
   B   B  
 C       C
